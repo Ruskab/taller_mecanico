@@ -1,34 +1,25 @@
 <html>
   <head>
   <meta charset="UTF-8">
-
     <link rel="stylesheet" type="text/css" href="../CSS/CSS_Web.css">
   </head>
-
   <body>
   <?php 
   session_start(); 
   include("../Funciones/sesion.php");
   ?>
-
   <div id="header">
     <h1>NUEVA FICHA DE VEHICULO</h1>
   </div>
-
   <div id="section">
-
       <div class="container">
         <div class="header" >
           <h1>DATOS DEL VEHICULO</h1>    
             <h3>Introduzca los datos [cliente-matricula-marca] obligatorio</h3>
         </div>
-
         <div class="body">
-
         <?php $error=""; if (!empty($_GET['var'])) { $error=$_GET['var']; } ?> <p style="color: red;"><?php echo "$error" ?></p>
-  
         <p><form action="nueva2.php" method="POST" >
-
            <p><input id="inLarge" name="v1" type="text" placeholder="cliente obligatorio" required="required"/>
               <input id="inLarge" name="v2" type="text" placeholder="modelo obligatorio" required="required"/>
               <input id="inLarge" name="v3" type="text" placeholder="matricula obligatorio" required="required"/>
