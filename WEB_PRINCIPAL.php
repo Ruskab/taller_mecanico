@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 
 <head>
-  <title>Pagina Principal</title>
+  <title>PAGINA PRINCIPAL</title>
   <link rel="stylesheet" type="text/css" href="CSS/CSS_Web.css">
   <meta charset="ISO-8859-1">
-
 </head>
 
 <!--PENDIENTE DE IMPLEMENTAR CRONOMETRO TIEMPO REAL -->
