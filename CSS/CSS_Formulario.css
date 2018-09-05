@@ -1,0 +1,51 @@
+div.contenido{
+     text-align: right;
+     /* border-style: solid; */
+     height: 100%;
+     width: 80%;
+     padding: 6%;
+}
+
+#boton{
+    /* position: relative; */
+    /* top: 0px; */
+    height: 11%;
+    width: 97%;
+    /* border-style: solid; */
+    padding: 1%;
+}
+
+#boton2{
+    position: relative;
+    bottom: -523px;
+    margin: auto;
+}
+
+label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#FDatos{
+  width: 310px;
+  margin-bottom: -6px;
+  outline: none;
+  padding: 10px;
+  font-size: 13px;
+  font-family: "Arial Black";
+  border: 1px solid rgba(13, 4, 68, 0.79);
+  border-radius: 35px;
+  text-align: center;
+}
+div.campo{
+  height: 8%;
+  /* position: absolute; */
+  width: 100%;
+}
+
+
+div.floatingBox{
+  display: -webkit-inline-box;
+  height: 80%;
+  width: 49%;
+}
