@@ -30,6 +30,7 @@ try {
 
 <html>
 <head>
+<<<<<<< HEAD
     <?php include('../includes/head.php'); ?>
 </head>
 <body>

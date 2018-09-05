@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 include("Funciones/sesion.php");
 include("Funciones/config.php");
@@ -88,7 +88,7 @@ $localID= $_SESSION['id'];
   <div class="container-fluid">  
     <div class="row">
       <div class="row">
-        <div class="col-md-1"></div>   
+        <div class="col-md-1"></div>
         <div class="col-md-10">
           <?php
             //FUNCIONES DE UN MECANICO
@@ -109,12 +109,12 @@ $localID= $_SESSION['id'];
           </div>
           <?php $list = mysqli_query($conexio,$sql); ?>
           <!-- Grupo de botones con funcionalidades del usuario movil -->          
-          <div class="btn-group-vertical visible-xs">            
+          <div class="btn-group-vertical visible-xs">
             <?php while ($reg = mysqli_fetch_array($list)) { ?>               
             <a class="btn btn-primary btn-lg" href=<?php echo $reg['php'];?> ><b><?php echo $reg['significado'];?></b></a>
             <?php } ?>             
           </div>
-        </div>   
+        </div>
         <div class="col-md-1"></div>   
       </div>
       <!-- INTERNVENCIONES BODY -->
@@ -214,7 +214,7 @@ $localID= $_SESSION['id'];
 
               </div>              
             </div> <!-- Final de panel internvención -->
-              <?php 
+              <?php
               }else if($localPerf == 'MK'){
               ?>
               <h1 class="text-info">NO HAY REPARACIONES EN CURSO</h1>
