@@ -1,6 +1,6 @@
 <?php
-$db_host = 'mysql.hostinger.es';
-$db_user = 'u793300115_salo';
-$db_pass = 'aqswde45';
-$database = 'u793300115_agrim';
+$db_host = 'localhost';
+$db_user = 'mysql_user';
+$db_pass = 'mysql_pass';
+$database = 'database_name';
 ?>
